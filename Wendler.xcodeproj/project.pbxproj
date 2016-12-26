@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBC2711C1E0DF50400B0275F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC2711B1E0DF50400B0275F /* AppDelegate.swift */; };
+		DBC2711E1E0DF50400B0275F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC2711D1E0DF50400B0275F /* ViewController.swift */; };
+		DBC271211E0DF50400B0275F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC2711F1E0DF50400B0275F /* Main.storyboard */; };
+		DBC271231E0DF50400B0275F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBC271221E0DF50400B0275F /* Assets.xcassets */; };
+		DBC271261E0DF50400B0275F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC271241E0DF50400B0275F /* LaunchScreen.storyboard */; };
+		DBC271311E0DF50400B0275F /* WendlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC271301E0DF50400B0275F /* WendlerTests.swift */; };
+		DBC2713C1E0DF50400B0275F /* WendlerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC2713B1E0DF50400B0275F /* WendlerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBC2712D1E0DF50400B0275F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBC271101E0DF50300B0275F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBC271171E0DF50300B0275F;
+			remoteInfo = Wendler;
+		};
+		DBC271381E0DF50400B0275F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBC271101E0DF50300B0275F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBC271171E0DF50300B0275F;
+			remoteInfo = Wendler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBC271181E0DF50400B0275F /* Wendler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wendler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC2711B1E0DF50400B0275F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBC2711D1E0DF50400B0275F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBC271201E0DF50400B0275F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBC271221E0DF50400B0275F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBC271251E0DF50400B0275F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBC271271E0DF50400B0275F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBC2712C1E0DF50400B0275F /* WendlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WendlerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC271301E0DF50400B0275F /* WendlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WendlerTests.swift; sourceTree = "<group>"; };
+		DBC271321E0DF50400B0275F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBC271371E0DF50400B0275F /* WendlerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WendlerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC2713B1E0DF50400B0275F /* WendlerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WendlerUITests.swift; sourceTree = "<group>"; };
+		DBC2713D1E0DF50400B0275F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBC271151E0DF50300B0275F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC271291E0DF50400B0275F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC271341E0DF50400B0275F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBC2710F1E0DF50300B0275F = {
+			isa = PBXGroup;
+			children = (
+				DBC2711A1E0DF50400B0275F /* Wendler */,
+				DBC2712F1E0DF50400B0275F /* WendlerTests */,
+				DBC2713A1E0DF50400B0275F /* WendlerUITests */,
+				DBC271191E0DF50400B0275F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBC271191E0DF50400B0275F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBC271181E0DF50400B0275F /* Wendler.app */,
+				DBC2712C1E0DF50400B0275F /* WendlerTests.xctest */,
+				DBC271371E0DF50400B0275F /* WendlerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBC2711A1E0DF50400B0275F /* Wendler */ = {
+			isa = PBXGroup;
+			children = (
+				DBC2711B1E0DF50400B0275F /* AppDelegate.swift */,
+				DBC2711D1E0DF50400B0275F /* ViewController.swift */,
+				DBC2711F1E0DF50400B0275F /* Main.storyboard */,
+				DBC271221E0DF50400B0275F /* Assets.xcassets */,
+				DBC271241E0DF50400B0275F /* LaunchScreen.storyboard */,
+				DBC271271E0DF50400B0275F /* Info.plist */,
+			);
+			path = Wendler;
+			sourceTree = "<group>";
+		};
+		DBC2712F1E0DF50400B0275F /* WendlerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBC271301E0DF50400B0275F /* WendlerTests.swift */,
+				DBC271321E0DF50400B0275F /* Info.plist */,
+			);
+			path = WendlerTests;
+			sourceTree = "<group>";
+		};
+		DBC2713A1E0DF50400B0275F /* WendlerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBC2713B1E0DF50400B0275F /* WendlerUITests.swift */,
+				DBC2713D1E0DF50400B0275F /* Info.plist */,
+			);
+			path = WendlerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBC271171E0DF50300B0275F /* Wendler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC271401E0DF50400B0275F /* Build configuration list for PBXNativeTarget "Wendler" */;
+			buildPhases = (
+				DBC271141E0DF50300B0275F /* Sources */,
+				DBC271151E0DF50300B0275F /* Frameworks */,
+				DBC271161E0DF50300B0275F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wendler;
+			productName = Wendler;
+			productReference = DBC271181E0DF50400B0275F /* Wendler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBC2712B1E0DF50400B0275F /* WendlerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC271431E0DF50400B0275F /* Build configuration list for PBXNativeTarget "WendlerTests" */;
+			buildPhases = (
+				DBC271281E0DF50400B0275F /* Sources */,
+				DBC271291E0DF50400B0275F /* Frameworks */,
+				DBC2712A1E0DF50400B0275F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBC2712E1E0DF50400B0275F /* PBXTargetDependency */,
+			);
+			name = WendlerTests;
+			productName = WendlerTests;
+			productReference = DBC2712C1E0DF50400B0275F /* WendlerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBC271361E0DF50400B0275F /* WendlerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC271461E0DF50400B0275F /* Build configuration list for PBXNativeTarget "WendlerUITests" */;
+			buildPhases = (
+				DBC271331E0DF50400B0275F /* Sources */,
+				DBC271341E0DF50400B0275F /* Frameworks */,
+				DBC271351E0DF50400B0275F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBC271391E0DF50400B0275F /* PBXTargetDependency */,
+			);
+			name = WendlerUITests;
+			productName = WendlerUITests;
+			productReference = DBC271371E0DF50400B0275F /* WendlerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBC271101E0DF50300B0275F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Qi;
+				TargetAttributes = {
+					DBC271171E0DF50300B0275F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = DJZSY9FAZG;
+						ProvisioningStyle = Automatic;
+					};
+					DBC2712B1E0DF50400B0275F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = JE47C7Q32M;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DBC271171E0DF50300B0275F;
+					};
+					DBC271361E0DF50400B0275F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = JE47C7Q32M;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DBC271171E0DF50300B0275F;
+					};
+				};
+			};
+			buildConfigurationList = DBC271131E0DF50300B0275F /* Build configuration list for PBXProject "Wendler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBC2710F1E0DF50300B0275F;
+			productRefGroup = DBC271191E0DF50400B0275F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBC271171E0DF50300B0275F /* Wendler */,
+				DBC2712B1E0DF50400B0275F /* WendlerTests */,
+				DBC271361E0DF50400B0275F /* WendlerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBC271161E0DF50300B0275F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC271261E0DF50400B0275F /* LaunchScreen.storyboard in Resources */,
+				DBC271231E0DF50400B0275F /* Assets.xcassets in Resources */,
+				DBC271211E0DF50400B0275F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC2712A1E0DF50400B0275F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC271351E0DF50400B0275F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBC271141E0DF50300B0275F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC2711E1E0DF50400B0275F /* ViewController.swift in Sources */,
+				DBC2711C1E0DF50400B0275F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC271281E0DF50400B0275F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC271311E0DF50400B0275F /* WendlerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC271331E0DF50400B0275F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC2713C1E0DF50400B0275F /* WendlerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBC2712E1E0DF50400B0275F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBC271171E0DF50300B0275F /* Wendler */;
+			targetProxy = DBC2712D1E0DF50400B0275F /* PBXContainerItemProxy */;
+		};
+		DBC271391E0DF50400B0275F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBC271171E0DF50300B0275F /* Wendler */;
+			targetProxy = DBC271381E0DF50400B0275F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBC2711F1E0DF50400B0275F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBC271201E0DF50400B0275F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBC271241E0DF50400B0275F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBC271251E0DF50400B0275F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBC2713E1E0DF50400B0275F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBC2713F1E0DF50400B0275F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBC271411E0DF50400B0275F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DJZSY9FAZG;
+				INFOPLIST_FILE = Wendler/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qi.Wendler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DBC271421E0DF50400B0275F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DJZSY9FAZG;
+				INFOPLIST_FILE = Wendler/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qi.Wendler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DBC271441E0DF50400B0275F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JE47C7Q32M;
+				INFOPLIST_FILE = WendlerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qi.WendlerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wendler.app/Wendler";
+			};
+			name = Debug;
+		};
+		DBC271451E0DF50400B0275F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JE47C7Q32M;
+				INFOPLIST_FILE = WendlerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qi.WendlerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wendler.app/Wendler";
+			};
+			name = Release;
+		};
+		DBC271471E0DF50400B0275F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = JE47C7Q32M;
+				INFOPLIST_FILE = WendlerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qi.WendlerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Wendler;
+			};
+			name = Debug;
+		};
+		DBC271481E0DF50400B0275F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = JE47C7Q32M;
+				INFOPLIST_FILE = WendlerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qi.WendlerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Wendler;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBC271131E0DF50300B0275F /* Build configuration list for PBXProject "Wendler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC2713E1E0DF50400B0275F /* Debug */,
+				DBC2713F1E0DF50400B0275F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBC271401E0DF50400B0275F /* Build configuration list for PBXNativeTarget "Wendler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC271411E0DF50400B0275F /* Debug */,
+				DBC271421E0DF50400B0275F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DBC271431E0DF50400B0275F /* Build configuration list for PBXNativeTarget "WendlerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC271441E0DF50400B0275F /* Debug */,
+				DBC271451E0DF50400B0275F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DBC271461E0DF50400B0275F /* Build configuration list for PBXNativeTarget "WendlerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC271471E0DF50400B0275F /* Debug */,
+				DBC271481E0DF50400B0275F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBC271101E0DF50300B0275F /* Project object */;
+}
